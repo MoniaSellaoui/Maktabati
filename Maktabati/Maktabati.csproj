@@ -8,4 +8,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="LivreForms\" />
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+
 </Project>

@@ -4,9 +4,9 @@ using System.Windows.Forms;
 
 namespace AppBookTrack
 {
-    public partial class Form1 : Form
+    public partial class acceuil : Form
     {
-        public Form1()
+        public acceuil()
         {
             InitializeComponent();
         }

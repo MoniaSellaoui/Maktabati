@@ -1,6 +1,6 @@
 ﻿namespace AppBookTrack
 {
-    partial class Form1
+    partial class acceuil
     {
         private System.ComponentModel.IContainer components = null;
         private Panel sidebar;
@@ -25,12 +25,12 @@
             btnModifier = new Button();
             btnSupprimer = new Button();
             dgvBooks = new DataGridView();
-            imgCol = new DataGridViewImageColumn();
             dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn2 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn3 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn4 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn5 = new DataGridViewTextBoxColumn();
+            imgCol = new DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)dgvBooks).BeginInit();
             SuspendLayout();
             // 
@@ -93,13 +93,6 @@
             dgvBooks.Size = new Size(600, 300);
             dgvBooks.TabIndex = 5;
             // 
-            // imgCol
-            // 
-            imgCol.HeaderText = "";
-            imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
-            imgCol.MinimumWidth = 6;
-            imgCol.Name = "imgCol";
-            // 
             // dataGridViewTextBoxColumn1
             // 
             dataGridViewTextBoxColumn1.HeaderText = "ID";
@@ -130,7 +123,14 @@
             dataGridViewTextBoxColumn5.MinimumWidth = 6;
             dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             // 
-            // Form1
+            // imgCol
+            // 
+            imgCol.HeaderText = "";
+            imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            imgCol.MinimumWidth = 6;
+            imgCol.Name = "imgCol";
+            // 
+            // acceuil
             // 
             ClientSize = new Size(850, 500);
             Controls.Add(sidebar);
@@ -139,7 +139,7 @@
             Controls.Add(btnModifier);
             Controls.Add(btnSupprimer);
             Controls.Add(dgvBooks);
-            Name = "Form1";
+            Name = "acceuil";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "App Book Track";
             ((System.ComponentModel.ISupportInitialize)dgvBooks).EndInit();
