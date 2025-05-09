@@ -4,9 +4,9 @@ using System.Windows.Forms;
 
 namespace AppBookTrack
 {
-    public partial class acceuil : Form
+    public partial class Form1 : Form
     {
-        public acceuil()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -71,9 +71,6 @@ namespace AppBookTrack
             }
         }
 
-        private void sidebar_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+    
     }
 }
