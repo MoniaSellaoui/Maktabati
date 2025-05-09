@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Maktabati.Data.Entities
 {
-    internal class Administrateur
+    public class Administrateur : Utilisateur
     {
+        // Aucun lien direct avec les entités selon le diagramme
     }
 }
