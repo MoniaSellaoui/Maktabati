@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maktabati", "Maktabati\Maktabati.csproj", "{565A285A-03B8-435B-A3D0-BF85E99623FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maktabati.Data", "Maktabati.Data\Maktabati.Data.csproj", "{81B57900-E6B7-4FE4-BA43-45E414BE5684}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maktabati.Data", "Maktabati.Data\Maktabati.Data.csproj", "{39CF02B1-74D9-46B1-A498-0BDF7672F435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{565A285A-03B8-435B-A3D0-BF85E99623FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{565A285A-03B8-435B-A3D0-BF85E99623FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{565A285A-03B8-435B-A3D0-BF85E99623FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81B57900-E6B7-4FE4-BA43-45E414BE5684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81B57900-E6B7-4FE4-BA43-45E414BE5684}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81B57900-E6B7-4FE4-BA43-45E414BE5684}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81B57900-E6B7-4FE4-BA43-45E414BE5684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CF02B1-74D9-46B1-A498-0BDF7672F435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CF02B1-74D9-46B1-A498-0BDF7672F435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CF02B1-74D9-46B1-A498-0BDF7672F435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CF02B1-74D9-46B1-A498-0BDF7672F435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
