@@ -19,6 +19,6 @@ namespace Maktabati.Data.Entities
         // Relation one-to-one avec Emprunt
         public int EmpruntId { get; set; }
         [ForeignKey("EmpruntId")]
-        public virtual Emprunt Emprunt { get; set; }
+        public virtual required Emprunt Emprunt { get; set; }
     }
 }

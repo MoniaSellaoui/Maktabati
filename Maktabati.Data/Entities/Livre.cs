@@ -14,7 +14,7 @@ namespace Maktabati.Data.Entities
         public string Titre { get; set; }
         public string Auteur { get; set; }
         public string Isbn { get; set; }
-        public bool Statut { get; set; }
+        public string Statut { get; set; }
         public string Categorie { get; set; }
 
         // Relations

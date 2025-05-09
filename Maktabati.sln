@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maktabati", "Maktabati\Makt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maktabati.Data", "Maktabati.Data\Maktabati.Data.csproj", "{39CF02B1-74D9-46B1-A498-0BDF7672F435}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maktabati.Services", "Maktabati.Services\Maktabati.Services.csproj", "{1B8A9F38-B1E2-422A-BED0-F5EF9D03A71D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{39CF02B1-74D9-46B1-A498-0BDF7672F435}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39CF02B1-74D9-46B1-A498-0BDF7672F435}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39CF02B1-74D9-46B1-A498-0BDF7672F435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8A9F38-B1E2-422A-BED0-F5EF9D03A71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8A9F38-B1E2-422A-BED0-F5EF9D03A71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8A9F38-B1E2-422A-BED0-F5EF9D03A71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8A9F38-B1E2-422A-BED0-F5EF9D03A71D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

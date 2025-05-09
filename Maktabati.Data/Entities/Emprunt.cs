@@ -19,14 +19,14 @@ namespace Maktabati.Data.Entities
         // Relations
         public int LivreId { get; set; }
         [ForeignKey("LivreId")]
-        public virtual Livre Livre { get; set; }
+        public virtual required Livre Livre { get; set; }
 
         public int MembreId { get; set; }
         [ForeignKey("MembreId")]
-        public virtual Membre Membre { get; set; }
+        public virtual required Membre Membre { get; set; }
 
         // Relation optionnelle avec Penalite (0..1)
-        public virtual Penalite Penalite { get; set; }
+        public virtual Penalite? Penalite { get; set; }
     }
 }
 

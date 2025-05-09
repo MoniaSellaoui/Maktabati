@@ -23,12 +23,12 @@ namespace Maktabati.Data.Repositories
             return await _context.Membres.ToListAsync();
         }
 
-        public async Task<Membre> GetById(int id)
+        public async Task<Membre?> GetById(int id)
         {
             return await _context.Membres.FindAsync(id);
         }
 
-        public async Task<Membre> FindByEmail(string email)
+        public async Task<Membre?> FindByEmail(string email)
         {
             return await _context.Membres
                 .FirstOrDefaultAsync(m => m.Email == email);

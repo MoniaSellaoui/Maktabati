@@ -11,8 +11,8 @@ namespace Maktabati.Data.Entities
     {
         [Key]
         public int Id { get; set; }
-        public string Nom { get; set; }
-        public string Email { get; set; }
-        public string MotDePasse { get; set; }
+        public required string Nom { get; set; }
+        public required string Email { get; set; }
+        public required string MotDePasse { get; set; }
     }
 }

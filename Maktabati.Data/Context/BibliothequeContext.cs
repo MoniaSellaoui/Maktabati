@@ -19,7 +19,7 @@ namespace Maktabati.Data.Context
         public Microsoft.EntityFrameworkCore.DbSet<Livre> Livres { get; set; }
         public Microsoft.EntityFrameworkCore.DbSet<Emprunt> Emprunts { get; set; }
         public Microsoft.EntityFrameworkCore.DbSet<Reservation> Reservations { get; set; }
-        public Microsoft.EntityFrameworkCore.DbSet<Evaluation> Evaluations { get; set; }
+   
         public Microsoft.EntityFrameworkCore.DbSet<Notification> Notifications { get; set; }
         public Microsoft.EntityFrameworkCore.DbSet<Penalite> Penalites { get; set; }
 
@@ -67,17 +67,6 @@ namespace Maktabati.Data.Context
                 .HasForeignKey(r => r.MembreId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<Evaluation>()
-                .HasOne(e => e.Livre)
-                .WithMany(l => l.Evaluations)
-                .HasForeignKey(e => e.LivreId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Evaluation>()
-                .HasOne(e => e.Membre)
-                .WithMany(m => m.Evaluations)
-                .HasForeignKey(e => e.MembreId)
-                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Notification>()
                 .HasOne(n => n.Membre)

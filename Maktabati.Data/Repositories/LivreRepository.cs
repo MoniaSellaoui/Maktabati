@@ -23,7 +23,7 @@ namespace Maktabati.Data.Repositories
             return await _context.Livres.ToListAsync();
         }
 
-        public async Task<Livre> GetById(int id)
+        public async Task<Livre?> GetById(int id)
         {
             return await _context.Livres.FindAsync(id);
         }

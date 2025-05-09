@@ -13,14 +13,14 @@ namespace Maktabati.Data.Entities
         // Relations
         public virtual ICollection<Emprunt> Emprunts { get; set; }
         public virtual ICollection<Reservation> Reservations { get; set; }
-        public virtual ICollection<Evaluation> Evaluations { get; set; }
+   
         public virtual ICollection<Notification> Notifications { get; set; }
 
         public Membre()
         {
             Emprunts = new HashSet<Emprunt>();
             Reservations = new HashSet<Reservation>();
-            Evaluations = new HashSet<Evaluation>();
+        
             Notifications = new HashSet<Notification>();
         }
     }
