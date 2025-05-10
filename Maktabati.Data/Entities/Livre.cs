@@ -20,13 +20,13 @@ namespace Maktabati.Data.Entities
         // Relations
         public virtual ICollection<Emprunt> Emprunts { get; set; }
         public virtual ICollection<Reservation> Reservations { get; set; }
-        public virtual ICollection<Evaluation> Evaluations { get; set; }
+      
 
         public Livre()
         {
             Emprunts = new HashSet<Emprunt>();
             Reservations = new HashSet<Reservation>();
-            Evaluations = new HashSet<Evaluation>();
+          
         }
     }
 }
