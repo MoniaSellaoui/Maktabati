@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using Maktabati.Data.Entities;
+using Maktabati.Data.Repositories;
 
 namespace Maktabati.Services.Services
 {
-    internal class NotificationService
+    public class NotificationService
     {
-    }
+        
 }
