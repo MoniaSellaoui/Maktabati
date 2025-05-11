@@ -1,35 +1,17 @@
-
+Ôªøusing System;
+using System.Windows.Forms;
+using Maktabati.Forms;
 
 namespace Maktabati
 {
-    internal static class Program
+    static class Program
     {
-        /// <summary>  
-        ///  The main entry point for the application.  
-        /// </summary>  
         [STAThread]
         static void Main()
         {
-            // Activer le visualiseur de compatibilitÈ pour les applications Windows Forms  
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            // Initialiser la culture de l'application  
-            System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Globalization.CultureInfo("fr-FR");
-            System.Globalization.CultureInfo.DefaultThreadCurrentUICulture = new System.Globalization.CultureInfo("fr-FR");
-            {
-                // Initialisation de la configuration de l'application  
-                ApplicationConfiguration.Initialize();
-
-                // Assurez-vous que la base de donnÈes est crÈÈe  
-                var factory = new BibliothequeContextFactory();
-                using (var context = factory.CreateDbContext(new string[0]))
-                {
-                    context.Database.EnsureCreated();
-                }
-
-                // Lancer l'application avec le formulaire principal  
-                Application.Run(new MainForm()); // Correction de la parenthËse manquante  
-            }
+            Application.Run(new CatalogForm()); // ‚Üê Lancer le bon formulaire
         }
     }
 }
