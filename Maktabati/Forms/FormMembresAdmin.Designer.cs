@@ -196,6 +196,6 @@
         private Button btnAjouter;
         private Button btnRenouveler;
 
-#endregion
+
     }
 }

@@ -11,7 +11,7 @@ namespace Maktabati
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CatalogForm()); // ← Lancer le bon formulaire
+            Application.Run(new MainFormAdmin()); 
         }
     }
 }
